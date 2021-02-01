@@ -1,0 +1,45 @@
+ Get all orders
+ get request to /api/orders
+ sample Response:
+ [
+   {
+     id:1,
+     name:"James";
+     drink:"Coffee"
+   },
+   {
+     id:2,
+    name:"John";
+     drink:"Latte"
+     }
+ ]
+
+ ------Add an order-------
+
+ Post requestto /api/orders
+ Type: JSON
+
+ Sample Post:
+ 
+   {
+     name:"James",
+     drink:"Coffee"
+
+   }
+   Sample Response:
+   {
+     id: 3.
+     name:"John",
+     drink:"Coffee"
+   }
+ 
+
+------Update an order-------
+
+ PUT requestto /api/orders
+ Sample Post: 
+{
+     id:1,
+     name:"James";
+     drink:"Coffee"
+   }
